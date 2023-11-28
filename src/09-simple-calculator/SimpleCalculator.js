@@ -3,7 +3,7 @@ import { useReducer } from 'react';
 const initialState = {
   num1: 0,
   num2: 0,
-  result: 0
+  result: "No Result Yet!"
 }
 
 function reducer (state, action) {
